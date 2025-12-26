@@ -31,7 +31,7 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-3">Contact</h3>
           <div className="flex items-center justify-center md:justify-start gap-2 text-sm">
             <Mail size={16} />
-            <span>bonjourfrench@gmail.com</span>
+            <span>tsasoft7@gmail.com</span>
           </div>
           <div className="flex items-center justify-center md:justify-start gap-2 text-sm mt-2">
             <Phone size={16} />
@@ -42,7 +42,7 @@ const Footer = () => {
 
       {/* Bottom copyright */}
       <div className="text-center text-xs text-white/70 pb-4">
-        © Bonjour French. All rights reserved
+        © TSA language. All rights reserved
       </div>
     </footer>
   );

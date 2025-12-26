@@ -43,7 +43,7 @@ const Home = () => {
         {/* Right illustration */}
         <div className="relative flex justify-center">
           <img
-            src="/hero-illustration.png"
+            src="/home.png"
             alt="French students illustration"
             className="w-full max-w-md opacity-90"
           />

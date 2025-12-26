@@ -2,11 +2,11 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#1f5a8f] border text-[18px] py-1.5 flex flex-row items-center justify-between w-full">
+    <div className="bg-[#1f5a8f] border text-[18px]  py-1.5 flex flex-row items-center justify-between w-full">
           {/* Logo */}
           <div className="flex items-center gap-3 text-white font-serif text-xl font-semibold">
             <span className="text-lg">🇫🇷</span>
-            <span>Bonjour French</span>
+            <span>TSA language</span>
           </div>
 
           {/* Navigation */}
