@@ -1,0 +1,52 @@
+/* ===== Marquee container ===== */
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 12px 0;
+}
+
+/* ===== Moving line ===== */
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 55s linear infinite;
+}
+
+/* Pause on hover (optional) */
+.marquee-container:hover .marquee {
+  animation-play-state: paused;
+}
+
+/* ===== Individual words ===== */
+.marquee span {
+  margin: 0 12px;
+  white-space: nowrap;
+  font-size: 0.875rem;
+}
+
+/* ===== Keyframes ===== */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+/* Vertical divider */
+.footer-divider {
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 80px;
+}
+
+/* Hide divider on small screens */
+@media (max-width: 768px) {
+  .footer-divider {
+    display: none;
+  }
+}
+

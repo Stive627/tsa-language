@@ -3,12 +3,13 @@ import {
   MapPin,
   Mail,
   Phone,
-  MessageCircle
+  MessageCircle,
+  MoreVertical
 } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section className="py-20 bg-white">
+    <section id="contact" className="py-20 bg-white">
       {/* Header */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-serif font-bold">Contact Us</h2>
@@ -31,8 +32,12 @@ const Contact = () => {
             class and experience our teaching style firsthand
           </p>
 
-          <button className="bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-md shadow">
+          <button className="bg-red-600 cursor-pointer hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-md shadow">
+            <a href="https://wa.me/917696793453?text=Hello%20Welcome%20to%20my%20WhatsApp"target="_blank">
+
+            Enroll Now
             Book Free Demo
+            </a>
           </button>
 
           <p className="mt-6 text-sm text-gray-600">

@@ -2,17 +2,26 @@ import React from "react";
 
 const Courses = () => {
   return (
-    <section className="relative bg-[#0b3a63] py-24 text-white overflow-hidden">
+    <section id="courses" className="relative bg-[#0b3a63] py-24 text-white overflow-hidden">
       {/* Side vocabulary (decorative) */}
-      <div className="absolute left-2 top-0 h-full text-xs opacity-60 rotate-180 writing-mode-vertical-lr">
-        Merci • Salut • Oui • Non • Bonjour • Bienvenue • Demain • Enchanté •
-        Aujourd’hui • Souvent • Mardi • S’il vous plaît • Excusez-moi • Pourquoi
+      {/* LEFT vertical scrolling words */}
+      {/* <div className="absolute left-0 top-0 h-full w-10 overflow-hidden flex justify-center">
+        <div className="vertical-marquee writing-mode-vertical-rl text-xs opacity-60 text-white">
+          Bonjour • Bonsoir • Bienvenue • Demain • Enchanté • Aujourd’hui • Souvent • 
+          Mardi • S’il vous plaît • Excusez-moi • Pourquoi • Bonjour • Bonsoir • 
+          Bienvenue • Demain • Enchanté • Aujourd’hui • Souvent • Mardi •
+        </div>
+      </div> */}
+
+      {/* RIGHT vertical scrolling words */}
+      <div className="absolute right-0 top-0 h-full w-10 overflow-hidden flex justify-center">
+        <div className="vertical-marquee writing-mode-vertical-lr text-xs opacity-60 text-white">
+          Bonjour • Bonsoir • Bienvenue • Demain • Enchanté • Aujourd’hui • Souvent • 
+          Mardi • S’il vous plaît • Excusez-moi • Pourquoi • Bonjour • Bonsoir • 
+          Bienvenue • Demain • Enchanté • Aujourd’hui • Souvent • Mardi •
+        </div>
       </div>
 
-      <div className="absolute right-2 top-0 h-full text-xs opacity-60 writing-mode-vertical-rl">
-        Bonjour • Bonsoir • Bienvenue • Demain • Enchanté • Aujourd’hui • Souvent
-        • Mardi • S’il vous plaît • Excusez-moi • Pourquoi
-      </div>
 
       <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
@@ -102,15 +111,17 @@ const Courses = () => {
 
         {/* CTA */}
         <div className="text-center mb-10">
-          <button className="bg-red-600 hover:bg-red-700 transition text-white font-semibold px-8 py-3 rounded-md shadow">
-            Enroll Now
+          <button className="bg-red-600 cursor-pointer hover:bg-red-700 transition text-white font-semibold px-8 py-3 rounded-md shadow">
+            <a href="https://wa.me/917696793453?text=Hello%20Welcome%20to%20my%20WhatsApp"target="_blank">Enroll Now</a>
           </button>
         </div>
 
         {/* Bottom link */}
         <div className="text-center text-white/90">
           ⭐ Got something else in mind?{" "}
-          <span className="underline cursor-pointer">Contact us</span>
+          <a href="#contact">
+            <span className="underline cursor-pointer">Contact us</span>
+          </a>
         </div>
       </div>
     </section>

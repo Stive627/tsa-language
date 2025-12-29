@@ -20,13 +20,20 @@ const Home = () => {
 
           {/* Buttons */}
           <div className="flex flex-wrap gap-4 mb-10">
-            <button className="bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-md shadow">
-              Book Free Demo
-            </button>
+            <button className="bg-red-600 cursor-pointer hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-md shadow">
+              <a href="https://wa.me/917696793453?text=Hello%20Welcome%20to%20my%20WhatsApp"target="_blank">
 
-            <button className="bg-blue-900 hover:bg-blue-800 text-white font-semibold px-6 py-3 rounded-md shadow">
-              View Our Courses
+              Book Free Demo
+
+              </a>
             </button>
+            <a href="#courses">
+              <button className="bg-blue-900 cursor-pointer hover:bg-blue-800 text-white font-semibold px-6 py-3 rounded-md shadow">
+                
+                View Our Courses
+                
+              </button>
+            </a>
           </div>
 
           {/* Rating */}

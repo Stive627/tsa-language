@@ -1,8 +1,11 @@
 import React from "react";
+import {
+  Menu
+} from "lucide-react";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#1f5a8f] border text-[18px]  py-1.5 flex flex-row items-center justify-between w-full">
+    <div className="bg-[#1f5a8f]  text-[18px]  py-1.5 flex flex-row items-center justify-between w-full px-5 ">
           {/* Logo */}
           <div className="flex items-center gap-3 text-white font-serif text-xl font-semibold">
             <span className="text-lg">🇫🇷</span>
@@ -10,24 +13,35 @@ const Navbar = () => {
           </div>
 
           {/* Navigation */}
-          <nav className=" flex items-center gap-8 text-white font-medium ">
-            <a href="#home" className="hover:underline">
-              Home
-            </a>
-            <a href="#courses" className="hover:underline">
-              Courses
-            </a>
-            <a href="#testimonials" className="hover:underline">
-              Testimonials
-            </a>
-            <a href="#contact" className="hover:underline">
-              Contact
-            </a>
+          <nav className=" text-white font-medium ">
+              <div className="lg:flex hidden items-center gap-8">
+              <a href="#home" className="hover:underline ">
+                Home
+              </a>
+              <a href="#courses" className="hover:underline">
+                Courses
+              </a>
+              <a href="#testimonials" className="hover:underline">
+                Testimonials
+              </a>
+              <a href="#contact" className="hover:underline">
+                Contact
+              </a>
 
-            {/* CTA */}
-            <button className="ml-4 cursor-pointer bg-red-600 hover:bg-red-700 transition text-white px-5 py-2 rounded-md shadow font-semibold">
-              Book Free Demo
-            </button>
+              {/* CTA */}
+              <button className="ml-4 cursor-pointer bg-red-600 hover:bg-red-700 transition text-white px-5 py-2 rounded-md shadow font-semibold">
+                <a href="https://wa.me/917696793453?text=Hello%20Welcome%20to%20my%20WhatsApp"target="_blank">
+
+                  Book Free Demo
+
+                </a>
+
+              </button>
+            </div>
+
+            <div className=" lg:hidden ">
+              <button><Menu size={20} /></button>
+            </div>
           </nav>
     </div>
   );

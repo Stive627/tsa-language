@@ -55,11 +55,12 @@ const About = () => {
           </div>
 
           {/* Experience badge */}
-          <div className="absolute -bottom-8 -right-8 bg-white border-4 border-blue-900 rounded-full w-28 h-28 flex flex-col items-center justify-center shadow-lg">
-            <span className="text-3xl font-bold text-blue-900">6+</span>
+          <div className="absolute -bottom-18 lg:-right-18 -right-8 bg-[#0b3a63]  border-4 border-blue-900 rounded-full w-28 h-28 flex flex-col items-center justify-center shadow-lg">
+            {/* <span className="text-3xl font-bold text-blue-900">6+</span>
             <span className="text-xs text-center font-semibold text-blue-900">
               Years of Experience
-            </span>
+            </span> */}
+            <img alt="badge" src="/badgee.png"/>
           </div>
         </div>
       </div>
