@@ -14,13 +14,13 @@ const Courses = () => {
       </div> */}
 
       {/* RIGHT vertical scrolling words */}
-      <div className="absolute right-0 top-0 h-full w-10 overflow-hidden flex justify-center">
+      {/* <div className="absolute right-0 top-0 h-full w-10 overflow-hidden flex justify-center">
         <div className="vertical-marquee writing-mode-vertical-lr text-xs opacity-60 text-white">
           Bonjour • Bonsoir • Bienvenue • Demain • Enchanté • Aujourd’hui • Souvent • 
           Mardi • S’il vous plaît • Excusez-moi • Pourquoi • Bonjour • Bonsoir • 
           Bienvenue • Demain • Enchanté • Aujourd’hui • Souvent • Mardi •
         </div>
-      </div>
+      </div> */}
 
 
       <div className="max-w-7xl mx-auto px-6">
