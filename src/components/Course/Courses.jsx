@@ -112,7 +112,7 @@ const Courses = () => {
         {/* CTA */}
         <div className="text-center mb-10">
           <button className="bg-red-600 cursor-pointer hover:bg-red-700 transition text-white font-semibold px-8 py-3 rounded-md shadow">
-            <a href="https://wa.me/917696793453?text=Hello%20Welcome%20to%20my%20WhatsApp"target="_blank">Enroll Now</a>
+            <a href="https://wa.me/237658182157?text=Bonjour%20et%20bienvenue%20!%20Je%20propose%20des%20cours%20de%20français.%20N%E2%80%99h%C3%A9sitez%20pas%20%C3%A0%20me%20contacter." target="_blank">Enroll Now</a>
           </button>
         </div>
 

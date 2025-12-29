@@ -30,7 +30,7 @@ const Navbar = () => {
 
               {/* CTA */}
               <button className="ml-4 cursor-pointer bg-red-600 hover:bg-red-700 transition text-white px-5 py-2 rounded-md shadow font-semibold">
-                <a href="https://wa.me/917696793453?text=Hello%20Welcome%20to%20my%20WhatsApp"target="_blank">
+                <a href="https://wa.me/237658182157?text=Bonjour%20et%20bienvenue%20!%20Je%20propose%20des%20cours%20de%20français.%20N%E2%80%99h%C3%A9sitez%20pas%20%C3%A0%20me%20contacter." target="_blank">
 
                   Book Free Demo
 
