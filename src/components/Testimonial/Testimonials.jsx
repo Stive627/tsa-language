@@ -1,4 +1,5 @@
 import React from "react";
+import Achievement from "./Achievement";
 
 const Testimonials = () => {
   return (
@@ -20,22 +21,22 @@ const Testimonials = () => {
           border-r-red-500 border-b-red-500">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <h3 className="text-4xl font-bold text-red-600">100+</h3>
+              <h3 className="text-4xl font-bold text-red-600"><Achievement number={100} symbol={"+"}/></h3>
               <p className="mt-2 font-medium">Satisfied Students</p>
             </div>
 
             <div>
-              <h3 className="text-4xl font-bold text-red-600">4.9/5</h3>
+              <h3 className="text-4xl font-bold text-red-600"><Achievement number={49} symbol={"/5"}/></h3>
               <p className="mt-2 font-medium">Successful Ratings</p>
             </div>
 
             <div>
-              <h3 className="text-4xl font-bold text-red-600">6+</h3>
+              <h3 className="text-4xl font-bold text-red-600"><Achievement number={6} duration={1000} symbol={"+"}/></h3>
               <p className="mt-2 font-medium">Years Experience</p>
             </div>
 
             <div>
-              <h3 className="text-4xl font-bold text-red-600">98%</h3>
+              <h3 className="text-4xl font-bold text-red-600"><Achievement number={98} symbol={"%"}/></h3>
               <p className="mt-2 font-medium">Exam pass rate</p>
             </div>
           </div>

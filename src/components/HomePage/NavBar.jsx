@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="bg-[#1f5a8f]  text-[18px]  py-1.5 flex flex-row items-center justify-between w-full px-5 ">
           {/* Logo */}
           <div className="flex items-center gap-3 text-white font-serif text-xl font-semibold">
-            <span className="text-lg">🇫🇷</span>
+            <span className="text-lg"><img src="tsa.png" className=" rounded-full w-18 h-18"/></span>
             <span>TSA language</span>
           </div>
 

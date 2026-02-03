@@ -37,7 +37,7 @@ const Courses = () => {
         {/* Courses grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-14">
           {/* A1 */}
-          <div className="bg-white text-black rounded-xl shadow-md p-8 border-l-4 border-red-600">
+          <div className="bg-white hover:bg-red-600 text-black rounded-xl shadow-md p-8 border-l-4 border-red-600">
             <h3 className="text-red-600 text-2xl font-serif font-bold mb-1">
               A1
             </h3>
