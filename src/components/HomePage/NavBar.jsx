@@ -9,7 +9,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center gap-3 text-white font-serif text-xl font-semibold">
             <span className="text-lg"><img src="tsa.png" className=" rounded-full w-18 h-18"/></span>
-            <span>TSA language</span>
+            <span>Le français avec Stive</span>
           </div>
 
           {/* Navigation */}

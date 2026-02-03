@@ -1,8 +1,10 @@
 import React from "react";
+import Bubles from "../Bubles/Bubles";
 
 const Home = () => {
   return (
     <section className="bg-white py-24">
+      <Bubles/>
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         
         {/* Left content */}
@@ -44,7 +46,7 @@ const Home = () => {
               ★ ★ ★ ★ ★
             </div>
             <p className="text-blue-900 italic font-medium">
-              Trusted by over 100+ Students
+              Trusted by over 20+ Students
             </p>
           </div>
         </div>

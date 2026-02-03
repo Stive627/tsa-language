@@ -35,7 +35,7 @@ const About = () => {
 
               <p className="text-gray-800 mb-4 leading-relaxed">
                 <strong>Stive Fossi</strong>, our trainer here at{" "}
-                <span className="text-red-600 italic">TSA language</span> is a
+                <span className="text-red-600 italic"><b>Le français avec stive</b></span> is a
                 native French speaker from Cameroon with over{" "}
                 <strong>6 years of teaching experience</strong>.
               </p>

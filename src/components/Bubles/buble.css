@@ -1,0 +1,95 @@
+.heightbody{
+    height: calc(100vh - 104px); /* 64px is the navbar height */
+}
+
+.bubleAnimation1{
+    animation: buble1 30s infinite;
+}
+@keyframes buble1 {
+    0% { transform: translate(300px, 0); }
+    25% { transform: translate(200px, 150px); }
+    50% { transform: translate(300px, 100px); }
+    75% { transform: translate(350px, 70px); }
+    100% { transform: translate(300px, 0px); }
+}
+
+.bubleAnimation2{
+    animation: buble2 30s infinite;
+}
+@keyframes buble2 {
+    0% { transform: translate(0px, 300px); }
+    25% { transform: translate(150px, 200px); }
+    50% { transform: translate(100px, 300px); }
+    75% { transform: translate(70px, 350px); }
+    100% { transform: translate(0px, 300px); }
+}
+
+.bubleAnimation3{
+    animation: buble3 30s infinite;
+}
+@keyframes buble3 {
+    0% { transform: translate(350px, 500px); }
+    25% { transform: translate(300px, 400px); }
+    50% { transform: translate(30px, 600px); }
+    75% { transform: translate(50px, 400px); }
+    100% { transform: translate(400px, 500px); }
+}
+
+.bubleAnimation4{
+    animation: buble4 30s infinite;
+}
+@keyframes buble4 {
+    0% { transform: translate(900px, 0); }
+    25% { transform: translate(1300px, 150px); }
+    50% { transform: translate(1000px, 100px); }
+    75% { transform: translate(1250px, 70px); }
+    100% { transform: translate(900px, 0px); }
+}
+
+.bubleAnimation5{
+    animation: buble5 30s infinite;
+}
+@keyframes buble5 {
+    0% { transform: translate(1300px, 300px); }
+    25% { transform: translate(1250px, 200px); }
+    50% { transform: translate(1150px, 300px); }
+    75% { transform: translate(1000px, 350px); }
+    100% { transform: translate(1300px, 300px); }
+}
+
+.bubleAnimation6{
+    animation: buble6 30s infinite;
+}
+@keyframes buble6 {
+    0% { transform: translate(1050px, 500px); }
+    25% { transform: translate(1110px, 400px); }
+    50% { transform: translate(390px, 600px); }
+    75% { transform: translate(800px, 400px); }
+    100% { transform: translate(1050px, 500px); }
+}
+.textshadow{
+    text-shadow: 0px 2px 20px green;
+    text-align: justify;
+}
+@media (max-width: 3024px) {
+    .heightbody{
+        height: 100vh
+    }
+}
+@media (max-width: 640px) {
+    .heightbody{
+        height: 100%
+    }
+}
+
+@media (max-width: 3024px) {
+    .heightbody2{
+        height: calc(100vh - 80px); /* 64px is the navbar height */
+    }
+}
+@media (max-width: 640px) {
+    .heightbody2{
+        height: 100%
+    }
+}
+
