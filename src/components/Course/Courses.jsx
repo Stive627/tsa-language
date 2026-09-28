@@ -113,7 +113,7 @@ const Courses = () => {
         <div className="text-center mb-10">
           <button className="bg-red-600 cursor-pointer hover:bg-red-700 transition text-white font-semibold px-8 py-3 rounded-md shadow">
 <a 
-  href="https://wa.me/237658182157?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9(e)%20par%20les%20cours%20de%20fran%C3%A7ais%20en%20ligne.%20J%E2%80%99aimerais%20me%20pr%C3%A9parer%20aux%20examens%20de%20langue.%20Merci."
+  href="https://wa.me/917696793453?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9(e)%20par%20les%20cours%20de%20fran%C3%A7ais%20en%20ligne.%20J%E2%80%99aimerais%20me%20pr%C3%A9parer%20aux%20examens%20de%20langue.%20Merci."
   target="_blank"
 >            Enroll Now</a>
           </button>
